@@ -1,0 +1,20 @@
+#home {
+  background-color: lightgrey;
+}
+
+#partners{
+  background: url("../../assets/images/01.jpg");
+  background-size: cover;
+}
+
+.pin-top {
+  position: relative;
+}
+
+.pin-bottom {
+  position: relative;
+}
+
+.pinned {
+  position: fixed !important;
+}
