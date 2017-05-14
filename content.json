@@ -5,6 +5,7 @@
     "card_1": {
       "heading": "Join Thin School",
       "body": "As you may have been made aware from local and national news     sources, a global malware campaign is underway targeting mostly hospitals and b    usinesses",
+      "img":  "http://lorempixel.com/100/190/nature/6",
       "link": {
         "text": "Get Started",
         "url": "#"
@@ -13,6 +14,7 @@
     "card_2": {
       "heading": "Become partner",
       "body": "As you may have been made aware from local and national news     sources, a global malware campaign is underway targeting mostly hospitals and b    usinesses",
+      "img":  "http://lorempixel.com/100/190/nature/6",
       "link": {
         "text": "Get Started",
         "url": "#"
@@ -36,12 +38,12 @@
   "courses": [
     {
       "title": "Design Thinking",
-      "icon": "",
+      "icon": "filter_drama",
       "body": "Some text"
     },
     {
       "title": "Creative Thinking",
-      "icon": "",
+      "icon": "filter_drama",
       "body": "Some text"
     }
   ]
