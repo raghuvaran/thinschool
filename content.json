@@ -3,27 +3,33 @@
   "home": {
     "main_text": "As you may have been made aware from local and national news sources, a global malware campaign is underway targeting mostly hospitals and businesses, but many personal computers are also at risk as a result of this attack. As we have seen in the past, attackers are distributing malware code through email attachments, and this particular attack is focused on computers running Microsoft Windows. The malware by the name of WannaCry is ransomware that encrypts the files on your computer when launched, and requires an online payment of some amount within a specified amount of time to decrypt the files.",
     "card_1": {
-      "heading": "",
-      "body": "",
+      "heading": "Join Thin School",
+      "body": "As you may have been made aware from local and national news     sources, a global malware campaign is underway targeting mostly hospitals and b    usinesses",
       "link": {
-        "text": "",
-        "url": ""
+        "text": "Get Started",
+        "url": "#"
       }
     },
     "card_2": {
-      "heading": "",
-      "body": "",
+      "heading": "Become partner",
+      "body": "As you may have been made aware from local and national news     sources, a global malware campaign is underway targeting mostly hospitals and b    usinesses",
       "link": {
-        "text": "",
-        "url": ""
+        "text": "Get Started",
+        "url": "#"
       }
     },
     "slider": [
       {
-        "title": "",
-        "align": "",
+        "title": "Cool kids",
+        "align": "center-align",
         "subtitle": "",
-        "img": ""
+        "img": "../../assets/images/02.jpg"
+      }
+      {
+        "title": "Awesome kids",
+        "align": "center-align",
+        "subtitle": "",
+        "img": "../../assets/images/03.jpg"
       }
     ]
   },
