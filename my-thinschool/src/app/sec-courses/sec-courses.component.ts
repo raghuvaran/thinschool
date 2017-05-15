@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {AfterViewChecked, Component, OnInit} from '@angular/core';
 import {GetContentService} from '../get-content.service';
 
 declare function initCollapsible(): void;
@@ -8,22 +8,27 @@ declare function initCollapsible(): void;
   styleUrls: ['./sec-courses.component.css'],
   providers: [GetContentService]
 })
-export class SecCoursesComponent implements OnInit {
-
+export class SecCoursesComponent implements OnInit, AfterViewChecked {
   courses: Courses[];
 
+
+  private isCollapsibleReady: boolean;
   constructor(private content: GetContentService) {
 
     this.content.getContentData().subscribe(data => {
       this.courses = data.courses;
       console.log(this);
+      if (this.isCollapsibleReady == null) {this.isCollapsibleReady = true; }
     });
   }
 
   ngOnInit() {
-    initCollapsible();
   }
 
+
+  ngAfterViewChecked(): void {
+    if (this.isCollapsibleReady) {initCollapsible(); this.isCollapsibleReady = false; }
+  }
 }
 
 interface Courses {

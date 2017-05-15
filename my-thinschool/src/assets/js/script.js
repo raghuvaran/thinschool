@@ -17,13 +17,16 @@ $('pushpin-nav').each(function () {
   });
 });
 
-
 function initSlider() {
   $('.slider').slider();
   console.log("initSlider called");
 }
 
-
 function initCollapsible() {
   $('.collapsible').collapsible();
+}
+
+function initTabs() {
+  $('ul.tabs').tabs();
+  console.log("initTabs called");
 }

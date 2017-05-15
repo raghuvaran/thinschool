@@ -46,7 +46,7 @@
     "card_2": {
       "heading": "Become partner",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur.",
-      "img": "http://lorempixel.com/100/190/nature/6",
+      "img": "https://lorempixel.com/100/190/nature/6",
       "link": {
         "text": "Get Started",
         "url": "#"
@@ -57,13 +57,13 @@
         "title": "Cool kids",
         "align": "right-align",
         "subtitle": "",
-        "img": "../../assets/images/02.jpg"
+        "img": "assets/images/02.jpg"
       },
       {
         "title": "Awesome kids",
         "align": "left-align",
         "subtitle": "",
-        "img": "../../assets/images/03.jpg"
+        "img": "assets/images/03.jpg"
       }
     ]
   },
@@ -82,7 +82,7 @@
   "partners": [
     {
       "name": "Next High School",
-      "img": "http://placehold.it/50x30",
+      "img": "https://placehold.it/50x30",
       "body": "About next high school",
       "link": {
         "text": "Visit school",
@@ -91,7 +91,7 @@
     },
     {
       "name": "Next High School 2",
-      "img": "http://placehold.it/50x30",
+      "img": "https://placehold.it/50x30",
       "body": "About next high school",
       "link": {
         "text": "Visit school",

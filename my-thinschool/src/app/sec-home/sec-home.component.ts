@@ -1,8 +1,8 @@
 import {Component, OnInit, AfterViewChecked} from '@angular/core';
 import {GetContentService} from '../get-content.service';
-import {isUndefined} from "util";
 
 declare function initSlider(): void;
+declare function initTabs(): void;
 
 @Component({
   selector: 'app-sec-home',
@@ -12,13 +12,12 @@ declare function initSlider(): void;
 })
 export class SecHomeComponent implements OnInit, AfterViewChecked {
   main_text: string;
+
   card_1: Card;
   card_2: Card;
   slides: Slides[];
   private isSliderReady: boolean;
-
-
-
+  private areTabsReady:  boolean;
   constructor(private content: GetContentService) {
 
     this.content.getContentData().subscribe(data => {
@@ -29,20 +28,30 @@ export class SecHomeComponent implements OnInit, AfterViewChecked {
 
       console.log(this);
       if (this.isSliderReady == null) {this.isSliderReady = true; }
+      if (this.areTabsReady == null) {this.areTabsReady = true; }
 
     });
   }
 
 
+
   ngOnInit() {
   }
+
 
   ngAfterViewChecked() {
     if (this.isSliderReady) {
       initSlider();
       this.isSliderReady = false;
     }
+    if (this.areTabsReady) {
+      initTabs();
+      this.areTabsReady = false;
+    }
+
+
   }
+
 
 
 
