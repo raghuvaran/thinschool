@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+
+
+.page-footer{
+  padding-top: 5px;
+}
+
+.page-footer .row {
+  margin-bottom: 0px;
+}
+
+.page-footer .footer-copyright{
+  padding: 5px 0px; !important;
+}
