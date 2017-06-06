@@ -17,9 +17,15 @@ $('pushpin-nav').each(function () {
   });
 });
 
-function initSlider() {
-  $('.slider').slider();
-  console.log("initSlider called");
+function initSlider(size) {
+  //var val = Math.exp(6.31304 - 0.22587*size);
+  $(function() {
+    $('.kwicks').kwicks({
+      minSize: 160,
+      behavior: 'slideshow'
+    });
+  });
+  console.log("initSlider called with size : "+size);
 }
 
 function initCollapsible() {

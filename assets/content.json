@@ -1,5 +1,6 @@
 {
   "title": "Thin School",
+  "logo":"assets/images/logos/logo.png",
   "top_right_menu": [
     {
       "option": "Instructor",
@@ -30,6 +31,10 @@
     {
       "option": "About Us",
       "url": "#about_us"
+    },
+    {
+      "option": "Pilot Project",
+      "url": "#pilot_project"
     }
   ],
   "home": {
@@ -57,13 +62,25 @@
         "title": "Cool kids",
         "align": "right-align",
         "subtitle": "",
-        "img": "assets/images/02.jpg"
+        "img": "assets/images/00.jpg"
       },
       {
         "title": "Awesome kids",
         "align": "left-align",
         "subtitle": "",
-        "img": "assets/images/03.jpg"
+        "img": "assets/images/06.jpg"
+      },
+      {
+        "title": "Cool kids",
+        "align": "right-align",
+        "subtitle": "",
+        "img": "assets/images/07.jpg"
+      },
+      {
+        "title": "Awesome kids",
+        "align": "left-align",
+        "subtitle": "",
+        "img": "assets/images/08.jpg"
       }
     ]
   },
@@ -79,28 +96,54 @@
       "body": "Creativity is recognized as a key success driver for organizations and individuals. While some consider it an innate talent that one may or may not have, the modern prevalent thinking is that it is a skill which, given the right nurturing environment, can be developed and harnessed by anyone in any organization. In this course we examine the conditions necessary to build such an environment. Through the use of examples from the worlds of business, art and science and with the practical application of tools such as brainstorming, mind mapping and others, we give participants the instruments they need to transform their life, their environment and their workplace."
     }
   ],
-  "partners": [
-    {
-      "name": "Next High School",
-      "img": "https://placehold.it/50x30",
-      "body": "About next high school",
-      "link": {
-        "text": "Visit school",
-        "url": "https://nexthighschool.org"
+  "partners": {
+    "bg": "",
+    "partners": [
+      {
+        "name": "Next High School",
+        "img": "https://placehold.it/50x30",
+        "body": "About next high school",
+        "link": {
+          "text": "Visit school",
+          "url": "https://nexthighschool.org"
+        }
+      },
+      {
+        "name": "Next High School 2",
+        "img": "https://placehold.it/50x30",
+        "body": "About next high school",
+        "link": {
+          "text": "Visit school",
+          "url": "https://nexthighschool.org"
+        }
       }
-    },
-    {
-      "name": "Next High School 2",
-      "img": "https://placehold.it/50x30",
-      "body": "About next high school",
-      "link": {
-        "text": "Visit school",
-        "url": "https://nexthighschool.org"
-      }
-    }
-  ],
+    ]
+  },
   "about_us": {
     "title": "<b>Thin School</b> is the future learning",
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at turpis ultricies, cursus velit et, luctus ante. Cras consequat mauris quis accumsan molestie. Sed dolor nisi, accumsan sit amet urna in, tempus accumsan ante. Praesent ipsum odio, consequat convallis porttitor sed, tincidunt sit amet elit. Vestibulum volutpat quam vel pretium egestas. Nullam sit amet magna viverra, feugiat nisl eget, congue velit. Vivamus cursus diam vitae felis pretium, quis pharetra lectus semper. Nullam auctor turpis quis nibh tincidunt imperdiet. Praesent facilisis condimentum lacus vitae eleifend. Suspendisse vitae semper dui, a hendrerit dolor. Maecenas tempus, dolor id maximus lacinia, mauris nunc malesuada turpis, ac auctor dolor neque sed ex.<br>Quisque turpis lacus, ultricies sed orci eu, ultricies facilisis urna. Maecenas maximus quam sit amet rhoncus consequat. Aenean ut ligula auctor, lobortis dui eget, bibendum ipsum. Morbi commodo tempor quam, quis lacinia velit sodales vitae. Integer ex leo, fringilla feugiat metus non, feugiat malesuada sapien. Sed mattis ante a nisi iaculis ultricies. Suspendisse vel nisi congue, feugiat diam ultrices, sodales nisl."
+  },
+  "pilot_project":{
+    "bg": "assets/images/01.jpg",
+    "partners": [
+      {
+        "name": "Next High School",
+        "img": "https://placehold.it/50x30",
+        "body": "About next high school",
+        "link": {
+          "text": "Visit school",
+          "url": "https://nexthighschool.org"
+        }
+      },
+      {
+        "name": "Next High School 2",
+        "img": "https://placehold.it/50x30",
+        "body": "About next high school",
+        "link": {
+          "text": "Visit school",
+          "url": "https://nexthighschool.org"
+        }
+      }
+    ]
   }
 }
