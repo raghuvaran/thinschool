@@ -10,6 +10,7 @@ import { SecHomeComponent } from './sec-home/sec-home.component';
 import { SecCoursesComponent } from './sec-courses/sec-courses.component';
 import { SecPartnersComponent } from './sec-partners/sec-partners.component';
 import { SecAboutUsComponent } from './sec-about-us/sec-about-us.component';
+import { SecPilotProjectComponent } from './sec-pilot-project/sec-pilot-project.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SecAboutUsComponent } from './sec-about-us/sec-about-us.component';
     SecHomeComponent,
     SecCoursesComponent,
     SecPartnersComponent,
-    SecAboutUsComponent
+    SecAboutUsComponent,
+    SecPilotProjectComponent
   ],
   imports: [
     BrowserModule,

@@ -2,11 +2,6 @@
   background-color: lightgrey;
 }
 
-#partners{
-  background: url("../../assets/images/01.jpg");
-  background-size: cover;
-}
-
 .pin-top {
   position: relative;
 }
@@ -17,4 +12,19 @@
 
 .pinned {
   position: fixed !important;
+}
+
+.brand-logo img{
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#white-bg{
+  background-color: white !important;
+}
+
+#nav-mobile li{
+  border: 1px solid;
+  margin: 2px;
 }

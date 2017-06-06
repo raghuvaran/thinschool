@@ -1,17 +1,14 @@
 <div class="section" id="home">
     <div class="container">
         <div class="row">
-            <div class="slider">
-                <ul class="slides">
-                    <li *ngFor="let slide of slides;">
+
+                <ul class="kwicks kwicks-horizontal">
+                    <li *ngFor="let slide of slides; let first = first" [ngClass]="{'kwicks-selected' : first}">
                         <img src="{{slide.img}}"> <!-- random image -->
-                        <div class="caption {{slide.align}}">
-                            <h3>{{slide.title}}</h3>
-                            <h5 class="light grey-text text-lighten-3">{{slide.body}}</h5>
-                        </div>
+
                     </li>
                 </ul>
-            </div>
+
         </div>
         <div class="row">
 

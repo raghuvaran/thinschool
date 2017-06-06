@@ -1,7 +1,7 @@
 import {Component, OnInit, AfterViewChecked} from '@angular/core';
 import {GetContentService} from '../get-content.service';
 
-declare function initSlider(): void;
+declare function initSlider(size): void;
 declare function initTabs(): void;
 
 @Component({
@@ -41,7 +41,7 @@ export class SecHomeComponent implements OnInit, AfterViewChecked {
 
   ngAfterViewChecked() {
     if (this.isSliderReady) {
-      initSlider();
+      initSlider(this.slides.length);
       this.isSliderReady = false;
     }
     if (this.areTabsReady) {
