@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/materialize.css">
+  <style>
+    .kwicks {
+      width: 580px;
+      height: 250px;
+      display: block;
+      list-style-type: none;
+      list-style: none;
+      position: relative;
+      margin: 0;
+      padding: 0;
+    }
+    .kwicks > * {
+      display: block;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+    }
+    .kwicks.kwicks-processed > * {
+      margin: 0;
+      position: absolute;
+    }
+    .kwicks-horizontal > * {
+      float: left;
+    }
+    .kwicks-horizontal > :first-child {
+      margin-left: 0;
+    }
+    .kwicks-vertical > :first-child {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+<div class="">
+  <ul class='kwicks kwicks-horizontal'>
+    <li class='kwicks-selected'><img src="http://lorempixel.com/580/250/nature/1"></li>
+    <li><img src="http://lorempixel.com/580/250/nature/2"></li>
+    <li><img src="http://lorempixel.com/580/250/nature/3"></li>
+    <li><img src="http://lorempixel.com/580/350/nature/4"></li>
+  </ul>
+</div>
+
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<!--<script src="js/main.js"></script>-->
+<!--<script src="js/jquery.easing.1.3.js"></script>-->
+<script src="js/materialize.min.js"></script>
+<script src="js/jquery.kwicks.min.js"></script>
+
+<script type="text/javascript">$(function() {
+  $('.kwicks').kwicks({
+    minSize: 20,
+    behavior: 'slideshow'
+  });
+});
+</script>
+</body>
+</html>
