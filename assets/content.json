@@ -38,7 +38,7 @@
     }
   ],
   "home": {
-    "main_text": "Thin School learning is a self-paced, multi-intelligence platform for workforce development focusing on advanced, as well as traditional technologies. Students can choose their own learning style, however, Artificial Intelligence will adapt to their learning pace and method according to their individualized assessment. Students can also connect with multiple peers remotely to discuss, collaborate, and explore new ideas with new learning techniques.<br>Thin School will help anticipate future job requirements and disseminate specialized technological knowledge to the future workforce. Thin School has teamed up with Clemson University’s Center for Workforce Development and their Educate Workforce online portal model. This allows us to institute a blended learning style, which will adapt to each student based on how he or she learns best.",
+    "main_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis, magna non varius tempor, libero diam lacinia odio, sagittis facilisis tortor metus ut risus. Morbi cursus dui turpis, vel condimentum sapien fermentum sed. Donec tempus dolor eros, at porta odio tristique non. Suspendisse feugiat venenatis fringilla. Nullam vel faucibus lorem, ut mattis ante. Ut ultrices eleifend lectus id fringilla. Vestibulum at rutrum leo. Sed tristique viverra sem sit amet elementum. Praesent tempor placerat placerat. Nam tincidunt ex vel venenatis luctus. Cras tincidunt mi in libero lacinia, et pretium massa elementum. Nam suscipit lorem ligula, ac viverra lorem lacinia a.<br>Phasellus laoreet, erat at euismod volutpat, tortor enim malesuada dolor, convallis consequat sapien eros tincidunt eros. Pellentesque elementum dolor a nisi feugiat efficitur. Nam aliquet elit non tincidunt pretium. Nunc eu sem eu urna vulputate tempor quis sit amet ipsum. Suspendisse vitae aliquam nisl, et commodo dolor. Sed tempus tristique auctor. Proin mollis lectus consequat, fermentum ante vitae, blandit augue. Nunc volutpat, lorem a finibus ultricies, metus est aliquet lectus, non malesuada turpis nulla sit amet sem. Etiam faucibus mauris eget est semper efficitur. Suspendisse blandit sapien sed laoreet pulvinar. Nunc ut egestas justo. Phasellus sed egestas enim, et facilisis elit.",
     "card_1": {
       "heading": "Join Thin School",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur.",
@@ -88,22 +88,12 @@
     {
       "title": "Design Thinking",
       "icon": "filter_drama",
-      "body": "Creative strategies utilized during the process of design"
+      "body": "Design Thinking is about believing we can make a difference, and having an intentional process in order to get to new, relevant solutions that create positive impact. Design Thinking gives you faith in your creative abilities and a process for transforming difficult challenges into opportunities for design."
     },
     {
       "title": "Creative Thinking",
       "icon": "group_work",
-      "body": "The process that allows you to explore connections, meet new challenges, and seek solutions that are unusual, original and fresh"
-    },
-    {
-      "title": "Emotional Intelligence",
-      "icon": "group_work",
-      "body": "The ability and skill set used to identify and manage your own emotions and the emotions of others"
-    },
-    {
-      "title": "Sustainable Energy",
-      "icon": "group_work",
-      "body": "Sustainable energy sources such as solar/wind, and sustainable strategies"
+      "body": "Creativity is recognized as a key success driver for organizations and individuals. While some consider it an innate talent that one may or may not have, the modern prevalent thinking is that it is a skill which, given the right nurturing environment, can be developed and harnessed by anyone in any organization. In this course we examine the conditions necessary to build such an environment. Through the use of examples from the worlds of business, art and science and with the practical application of tools such as brainstorming, mind mapping and others, we give participants the instruments they need to transform their life, their environment and their workplace."
     }
   ],
   "partners": {
@@ -112,26 +102,26 @@
       {
         "name": "Next High School",
         "img": "https://placehold.it/50x30",
-        "body": " Next High School is a free public school in Greenville, South Carolina that prepares young people for the unknown future by working with that future now; building their communities now; and making an impact now",
+        "body": "About next high school",
         "link": {
           "text": "Visit school",
           "url": "https://nexthighschool.org"
         }
       },
       {
-        "name": "CUCWD",
+        "name": "Next High School 2",
         "img": "https://placehold.it/50x30",
-        "body": "The Clemson University Center for Workforce Development, or CUCWD, is a Commission on Higher Education-approved, statewide K-20 initiative to improve workforce educational capacity in STEM field across South Carolina.",
+        "body": "About next high school",
         "link": {
-          "text": "Visit CUCWD",
-          "url": "https://cecas.clemson.edu/cucwd"
+          "text": "Visit school",
+          "url": "https://nexthighschool.org"
         }
       }
     ]
   },
   "about_us": {
     "title": "<b>Thin School</b> is the future learning",
-    "body": "As current junior and high school students prepare to enter the workforce over the next 5 – 10 years, they’re faced with a rapidly changing workplace. If equipped with the necessary skills, this new workforce could take advantage of increasing employment opportunity, as more than 50% of the companies in the US are planning to increase their production by at least 5% in the next five years.<br>In South Carolina, there is a rise in employment opportunities with as much as $5.4 billion in capital investment being infused into the state’s economy in 2013, bringing in 15,000 new jobs, 60% of which are in the manufacturing sector. The current unemployment rate can be brought down significantly if young students are introduced to technical knowledge and skills to take advantage of the boom in job opportunities.<br>Today, current programs for advancing workforce development serve the community in a broad array through Career Development Centers, Technical Colleges, and Government Work Force resources. Unfortunately, there is not a collective set of resources that brings together the elements of lifelong learning skills as well as preparing the future workforce of 6th -12th graders. <br>Exposing young students to project/problem-based learning at an early age will create a fertile ground from which future employers can harvest. Thin School will sustain its mission into the future by incorporating Artificial Intelligence and Machine Learning to adapt to the learning style of each individual student. This method will allow the delivery of content that aligns with the student’s learning preferences, allowing for deeper comprehension.<br>By maintaining a comprehensive portfolio of expertise, resources, and services readily available to their partners, Thin School’s strategies will eventually result in narrowing of the gap between the rich and poor within the community and be a catalyst for holistic community development."
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at turpis ultricies, cursus velit et, luctus ante. Cras consequat mauris quis accumsan molestie. Sed dolor nisi, accumsan sit amet urna in, tempus accumsan ante. Praesent ipsum odio, consequat convallis porttitor sed, tincidunt sit amet elit. Vestibulum volutpat quam vel pretium egestas. Nullam sit amet magna viverra, feugiat nisl eget, congue velit. Vivamus cursus diam vitae felis pretium, quis pharetra lectus semper. Nullam auctor turpis quis nibh tincidunt imperdiet. Praesent facilisis condimentum lacus vitae eleifend. Suspendisse vitae semper dui, a hendrerit dolor. Maecenas tempus, dolor id maximus lacinia, mauris nunc malesuada turpis, ac auctor dolor neque sed ex.<br>Quisque turpis lacus, ultricies sed orci eu, ultricies facilisis urna. Maecenas maximus quam sit amet rhoncus consequat. Aenean ut ligula auctor, lobortis dui eget, bibendum ipsum. Morbi commodo tempor quam, quis lacinia velit sodales vitae. Integer ex leo, fringilla feugiat metus non, feugiat malesuada sapien. Sed mattis ante a nisi iaculis ultricies. Suspendisse vel nisi congue, feugiat diam ultrices, sodales nisl."
   },
   "pilot_project":{
     "bg": "assets/images/01.jpg",
