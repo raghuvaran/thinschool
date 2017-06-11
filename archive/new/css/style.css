@@ -18,6 +18,13 @@ main {
   flex: 1 0 auto;
 }
 
+#top{
+  background-color: white;
+}
+
+#top a{
+  color: black;
+}
 
 .kwicks {
   /*width: 580px;*/
