@@ -20,11 +20,10 @@
   margin-left: 15px;
 }
 
-#white-bg{
-  background-color: white !important;
+#top{
+  background-color: white;
 }
 
-#nav-mobile li{
-  border: 1px solid;
-  margin: 2px;
+#top a{
+  color: black;
 }
