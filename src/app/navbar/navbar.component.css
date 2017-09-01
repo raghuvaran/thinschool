@@ -14,9 +14,15 @@
   position: fixed !important;
 }
 
+.brand-logo {
+  width: 128px;
+  height: auto
+}
+
 .brand-logo img{
-  height: 40px;
-  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  /* margin-top: 15px; */
   margin-left: 15px;
 }
 
