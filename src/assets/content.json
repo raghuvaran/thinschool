@@ -55,12 +55,6 @@
     },
     "slider": [
       {
-        "title": "Cool kids",
-        "align": "right-align",
-        "subtitle": "",
-        "img": "assets/images/00.jpg"
-      },
-      {
         "title": "Awesome kids",
         "align": "left-align",
         "subtitle": "",
