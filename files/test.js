@@ -34,7 +34,7 @@ function URLGenerator(baseURL, params){
   return baseURL.endsWith('?') ? baseURL + serializeParams(params) : baseURL + '?' + serializeParams(params)
 }
 
-var loc = prompt("Location: Ex: block-v1:ThinSchool...") || "block-v1:ThinSchool+TSF101+2017_Fall+type@openassessment+block@683292ba486446138f5a6866e515b6ba"
+var loc = prompt("Location: Ex: block-v1:ThinSchool...") || throw "invalid location" || "block-v1:ThinSchool+TSF101+2017_Fall+type@openassessment+block@683292ba486446138f5a6866e515b6ba"
 var baseUrl = `https://ts.educateworkforce.com/courses/course-v1:ThinSchool+TSF101+2017_Fall/xblock/${loc}/handler/render_student_info`
 var students = [
   {name: "Ani	Muhammed", grade:	10, email:	"mani.student@scgreencharter.org"},
