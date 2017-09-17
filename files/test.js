@@ -1,7 +1,7 @@
 /**
  * 
  * @author Raghuvaran
- * @version 0.2
+ * @version 0.2.1
  */
 
 function fetchText(URL, options) {
@@ -100,8 +100,9 @@ function addNameTag(index){
   ]
 }
 
-function fetchData() {
-  let loc = prompt("Location: Ex: block-v1:ThinSchool...");
+function fetchData(error) {
+  if(error) alert('There was an error while fetching data please try again');
+  let loc = "block-v1:ThinSchool+TSF101+2017_Fall+type@openassessment+block@390786cbe03b4a799d66fcbd5b89c939" || prompt("Location: Ex: block-v1:ThinSchool...");
   if(loc === null || loc === "") throw new Error("Invalid location!");
   let baseUrl = `https://ts.educateworkforce.com/courses/course-v1:ThinSchool+TSF101+2017_Fall/xblock/${loc}/handler/render_student_info`
   
@@ -110,9 +111,9 @@ function fetchData() {
   ))
 }
 
-async function run() {
+async function run(error=false) {
   let final_questions =[], returnable ='';
-  (await fetchData())
+  (await fetchData(error))
   // .map(r => jQuery(r))
   .forEach((c,index) => {
     c = jQuery(c)
@@ -154,4 +155,27 @@ async function run() {
 
 }
 
-run().then(r => console.log(r))
+function throwOuput(r) {
+  console.clear();
+  console.log(r);
+}
+
+var counter = 0;
+
+async function init(error) {
+try{
+  if(counter > 3) return false;
+  counter++;
+  let r = await run(error);
+  throwOuput(r);
+  return true;
+}
+catch(e) {
+  await init(true)
+}
+}
+
+init().then(r => { if(typeof r === "boolean" && r === false) alert('Bad luck again!! Contact raghu@chowda.in for help')}).catch(() =>
+    
+  alert('Bad luck again! Contact raghu@chowda.in for help')
+)
