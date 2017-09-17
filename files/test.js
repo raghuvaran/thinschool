@@ -102,7 +102,7 @@ function addNameTag(index){
 
 function fetchData(error) {
   if(error) alert('There was an error while fetching data please try again');
-  let loc = "block-v1:ThinSchool+TSF101+2017_Fall+type@openassessment+block@390786cbe03b4a799d66fcbd5b89c939" || prompt("Location: Ex: block-v1:ThinSchool...");
+  let loc = prompt("Location: Ex: block-v1:ThinSchool...");
   if(loc === null || loc === "") throw new Error("Invalid location!");
   let baseUrl = `https://ts.educateworkforce.com/courses/course-v1:ThinSchool+TSF101+2017_Fall/xblock/${loc}/handler/render_student_info`
   
