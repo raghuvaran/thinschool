@@ -70,7 +70,7 @@ var students = [
   ["Padgett	Emma", 10, "epadgett.student@scgreencharter.org"],
   ["Young	Kennedy", 9, "kyoung.student@scgreencharter.org"],
   ["Young	Sophie", 9, "syoung.student@scgreencharter.org"],
-  ["Sonmez	Halit", 10, "hosonmez.student@scgreencharter.org"],
+  ["Sonmez	Halit", 10, "hsonmez.student@scgreencharter.org"],
   ["Veil	Christian", 10, "cveil.student@scgreencharter.org"],
   ["Conlan	Nicholas", 10, "nconlan.student@scgreencharter.org"],
   ["Hamlett	Nicholas", 9, "nhamlett.student@scgreencharter.org"],
