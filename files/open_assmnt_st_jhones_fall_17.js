@@ -89,7 +89,7 @@ var students = [
 ["Colin Burns ",	"cburns2019@sjcatholicschool.org"],
 ["Blake Osborne",	"bosborne2018@sjcatholicschool.org"],
 ["Koontz, Madison",	"mkoontz2019@sjcatholicschool.org"],
-].map(r => ({ name: r[0], grade: r[1], email: r[2], answers: []}))
+].map(r => ({ name: r[0], email: r[1], answers: []}))
 
 var questionClass= '.submission__answer__part__prompt__value';
 var answerClass=   '.submission__answer__part__text__value';
@@ -103,10 +103,6 @@ function addNameTag(index){
     {
       key: 'name',
       value: 'Name: '
-    },
-    {
-      key: 'grade',
-      value: 'Grade: '
     },
     {
       key: 'email',
