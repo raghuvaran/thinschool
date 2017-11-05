@@ -203,7 +203,6 @@ try{
   if(counter > 3) return false;
   counter++;
   let r, exec = this.exec;
-  console.log({exec});return;
   if(exec === 2) 
     r = await run2(error);
   else
