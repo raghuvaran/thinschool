@@ -202,8 +202,8 @@ async function init(error) {
 try{
   if(counter > 3) return false;
   counter++;
-  let r, exec = typeof exec === "undefined" && undefined || exec;
-  if(exec === 2)
+  let r, exec = typeof exec === "undefined" && undefined || this.exec;
+  if(exec === 2) {
     r = await run2(error);
   else
     r = await run(error);
@@ -223,7 +223,7 @@ init().then(r => { if(typeof r === "boolean" && r === false) alert('Bad luck aga
 function fetchMCQ(){
   var loc = prompt('Enter location for MCQ');
   return Promise.all(students.map(s => {
-    var mcqUrl = `https://ts.educateworkforce.com/courses/course-v1%3AThinSchool%2BTSF101%2B2017_Fall/submission_history/${s.username}/${loc}`;
+    var mcqUrl = `https://ts.educateworkforce.com/courses/course-v1%3AThinSchool%2BTSFSJ101%2B2017_Fall/submission_history/${s.username}/${loc}`;
     return fetchText(mcqUrl);
   }))
 }
@@ -250,7 +250,7 @@ function promptForChoices(){
 async function run2(){
   question = getQuestion() || prompt('Enter the question');
   this.question= question;
-    promptForChoices({});
+    promptForChoices({}); 
 
   (await fetchMCQ()).forEach((r,i) => {
     try {
