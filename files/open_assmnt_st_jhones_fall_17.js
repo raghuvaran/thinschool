@@ -62,7 +62,7 @@ var students = [
 ["Kathryn Evancho ",	"kevancho2019@sjcatholicschool.org"],
 ["Katherine Alber ",	"kalber2018@sjcatholicschool.org"],
 ["Lizzie Latham",	"llatham2019@sjcatholicschool.org"],
-["Capelle James",	"jcapelle2017@sjcatholicschool.org"],
+["Capelle James",	"mcapelle2019@sjcatholicschool.org"],
 ["Michael Lynch",	"mlynch2019@sjcatholicschool.org"],
 ["Riley Fesler",	"rfesler2018@sjcatholicschool.org"],
 ["Annika Bissinger",	"abissinger2019@sjcatholicschool.org"],
