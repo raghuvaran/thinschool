@@ -103,7 +103,7 @@ var students = [
    */
 
 // var question = undefined, choices ={};
-var choices = {
+var CHOICES = {
   choice_0 : 'Not helpful',
   choice_1 : 'Somewhat helpful',
   choice_2 : 'Helpful',
@@ -233,7 +233,7 @@ function getQuestion() {
 }
 
 function getChoices() {
-  return this.choices;
+  return CHOICES;
 }
 
 function promptForChoices(){
