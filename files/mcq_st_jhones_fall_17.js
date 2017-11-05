@@ -239,6 +239,7 @@ function getChoices() {
 function promptForChoices(){
   let i = 0;
   choices = getChoices();
+  console.log('choices before prompting', {choices});
   if(choices.length || Object.getOwnPropertyNames(choices).length) return; 
   while(confirm('Do you have any choices left to enter?')) {
     let key = `choice_${i++}`;
